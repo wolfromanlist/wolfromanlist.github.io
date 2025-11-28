@@ -1,0 +1,20 @@
+title: "Your Name"
+description: "Things I'm working on"
+theme: jekyll-theme-cayman
+
+author: "Your Name"
+url: "https://yourusername.github.io"
+
+# Display markdown pages automatically
+collections:
+  posts:
+    output: true
+
+# Build settings
+markdown: kramdown
+
+# Add navigation links
+navbar-links:
+  About: "/about"
+  Projects: "/projects"
+  Blog: "/"
