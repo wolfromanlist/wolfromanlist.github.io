@@ -3,20 +3,30 @@ layout: default
 title: Home
 ---
 
-# 👋 Welcome
+# Welcome
 
-This is where I post projects, notes, and things I'm working on.
+Hi, I’m Roman — this site is my digital workspace where I share things I build, learn, and explore.
 
-[Buy Me a Coffee ☕](https://buymeacoffee.com/romanlist){:target="_blank"}
-
----
-
-## Latest Posts
+## Recent posts
 
 <ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a> – <small>{{ post.date | date: "%b %-d, %Y" }}</small>
-    </li>
-  {% endfor %}
+{% for post in site.posts limit:3 %}
+  <li>
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    <small class="text-muted">— {{ post.date | date: "%b %d, %Y" }}</small>
+  </li>
+{% endfor %}
 </ul>
+
+## What I’m working on now
+
+- Data processing & ML notebooks  
+- A computational graph framework using jraph  
+- Interactive Plotly visualizations  
+- Italian teaching resources  
+
+## Support
+
+If you enjoy my work, you can  
+**[Buy me a coffee ☕️](https://buymeacoffee.com/romanlist)**  
+It helps me dedicate more time to open research, projects, and teaching materials.
