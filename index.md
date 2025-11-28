@@ -21,9 +21,7 @@ Hi, I’m Roman — this site is my digital workspace where I share things I bui
 ## What I’m working on now
 
 - Data processing & ML notebooks  
-- A computational graph framework using jraph  
 - Interactive Plotly visualizations  
-- Italian teaching resources  
 
 ## Support
 
