@@ -7,7 +7,7 @@ title: Home
 
 This is where I post projects, notes, and things I'm working on.
 
-[Buy Me a Coffee ☕](https://www.buymeacoffee.com/romanlist){:target="_blank"}
+[Buy Me a Coffee ☕](https://buymeacoffee.com/romanlist){:target="_blank"}
 
 ---
 
