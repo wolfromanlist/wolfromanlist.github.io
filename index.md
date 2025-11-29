@@ -4,7 +4,7 @@ title: Home
 ---
 
 <!-- Hero Section -->
-<header class="masthead" style="background-image: url('{{ "/assets/css/images/hero.jpg" | relative_url }}'); height: 60vh; background-size: cover; background-position: center;">
+<header class="masthead" style="background-image: url('{{ "/assets/images/hero.jpg" | relative_url }}'); height: 60vh; background-size: cover; background-position: center;">
   <div class="container h-100 d-flex align-items-center justify-content-center">
     <div class="text-center text-white">
       <h1 class="display-4 fw-bold">Hi, I'm Roman</h1>
