@@ -44,4 +44,5 @@ title: Home
       </div>
     </aside>
   </div>
+  <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "997ca0fd41f64ef194ae0bbba3a63222"}'></script><!-- End Cloudflare Web Analytics -->
 </main>
