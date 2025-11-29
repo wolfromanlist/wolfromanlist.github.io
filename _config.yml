@@ -12,6 +12,8 @@ collections:
 
 # Build settings
 markdown: kramdown
+kramdown:
+  input: GFM
 
 # Add navigation links
 navbar-links:
