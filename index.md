@@ -28,6 +28,9 @@ title: Home
       </ul>
     </div>
 
+    <p style="background: yellow;">TEST — do you see the navbar above?</p>
+
+
     <aside class="col-lg-4">
       <div class="p-3 mb-3 bg-light rounded shadow-sm">
         <h4>About Me</h4>
