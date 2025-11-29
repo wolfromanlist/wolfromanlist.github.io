@@ -1,0 +1,4 @@
+---
+layout: aside
+title: Projects
+---
