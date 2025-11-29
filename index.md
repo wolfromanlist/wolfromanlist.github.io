@@ -39,7 +39,7 @@ title: Home
         <ul class="list-unstyled">
           <li><a href="/projects">Projects</a></li>
           <li><a href="/about">About</a></li>
-          <li><a href="https://buymeacoffee.com/YOURNAME" target="_blank">Buy me a coffee</a></li>
+          <li><a href="https://buymeacoffee.com/romanlist" target="_blank">Buy me a coffee</a></li>
         </ul>
       </div>
     </aside>
