@@ -9,11 +9,17 @@
 
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link" href="{{ '/' | relative_url }}">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="{{ '/projects' | relative_url }}">Projects</a></li>
-        <li class="nav-item"><a class="nav-link" href="{{ '/about' | relative_url }}">About</a></li>
-        <li class="nav-item"><a class="nav-link" href="https://buymeacoffee.com/romanlist" target="_blank">☕</a></li>
+        {% for item in site.data.navigation %}
+          <li class="nav-item">
+            <a class="nav-link"
+               href="{% if item.external %}{{ item.url }}{% else %}{{ item.url | relative_url }}{% endif %}"
+               {% if item.external %} target="_blank"{% endif %}>
+               {{ item.name }}
+            </a>
+          </li>
+        {% endfor %}
       </ul>
     </div>
   </div>
 </nav>
+

@@ -1,0 +1,12 @@
+- name: Home
+  url: /
+
+- name: Projects
+  url: /projects
+
+- name: About
+  url: /about
+
+- name: Buy me a coffee
+  url: https://buymeacoffee.com/romanlist
+  external: true

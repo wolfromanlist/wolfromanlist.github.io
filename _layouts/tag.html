@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<div class="container my-5">
+  <h1 class="mb-4">Posts tagged "{{ page.tag }}"</h1>
+
+  <ul class="list-unstyled">
+    {% for post in site.posts %}
+      {% if post.tags contains page.tag %}
+        <li class="mb-2">
+          <a class="fw-semibold" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          <span class="text-muted small"> — {{ post.date | date: "%b %-d, %Y" }}</span>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>

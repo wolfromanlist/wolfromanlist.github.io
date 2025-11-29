@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<div class="container my-5">
+  <h1>Available Tags</h1>
+  {% for tag in site.tags %}
+    <p>
+      <a href="{{ '/tag/' | append: tag[0] | relative_url }}">{{ tag[0] }}</a>
+      ({{ tag[1].size }})
+    </p>
+  {% endfor %}
+</div>
