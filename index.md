@@ -35,6 +35,14 @@ title: Home
         <p>I'm Roman, sharing work in data, ML, and interactive visualizations.</p>
       </div>
 
+    <div class="p-3 mb-3 bg-light rounded shadow-sm">
+      <h4>Tags</h4>
+      {% assign all_tags = site.tags | sort %}
+      {% for tag in all_tags %}
+        <a href="{{ '/tag/' | append: tag[0] | relative_url }}" class="badge bg-secondary text-decoration-none mb-1 me-1">{{ tag[0] }}</a>
+      {% endfor %}
+    </div>
+
       <div class="p-3 bg-light rounded shadow-sm">
         <h4>Links</h4>
         <ul class="list-unstyled">
