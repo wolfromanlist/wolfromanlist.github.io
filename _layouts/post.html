@@ -1,12 +1,6 @@
 ---
 layout: default
 ---
-<p class="tags">
-  {% for tag in page.tags %}
-    <a href="{{ '/tag/' | append: tag | relative_url }}" class="badge bg-secondary text-decoration-none">{{ tag }}</a>
-  {% endfor %}
-</p>
-
 <header class="masthead" style="background-image: url('{{ page.header_image | default: "/assets/images/hero.jpg" | relative_url }}'); height: 40vh; background-size: cover; background-position: center;">
   <div class="container position-relative">
     <div class="row justify-content-center">
@@ -19,6 +13,14 @@ layout: default
           <span class="meta">
             Posted on {{ page.date | date: "%B %-d, %Y" }}
           </span>
+
+          {% if page.tags %}
+            <div class="mt-3">
+              {% for tag in page.tags %}
+                <a href="{{ '/tag/' | append: tag | relative_url }}" class="badge bg-warning text-dark text-decoration-none me-1">{{ tag }}</a>
+              {% endfor %}
+            </div>
+          {% endif %}
         </div>
       </div>
     </div>
