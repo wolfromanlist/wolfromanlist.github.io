@@ -1,7 +1,11 @@
 ---
 layout: default
-tags: [machine-learning, visualization]
 ---
+<p class="tags">
+  {% for tag in page.tags %}
+    <a href="{{ '/tag/' | append: tag | relative_url }}" class="badge bg-secondary text-decoration-none">{{ tag }}</a>
+  {% endfor %}
+</p>
 
 <header class="masthead" style="background-image: url('{{ page.header_image | default: "/assets/images/hero.jpg" | relative_url }}'); height: 40vh; background-size: cover; background-position: center;">
   <div class="container position-relative">
