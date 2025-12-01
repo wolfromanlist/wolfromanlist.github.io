@@ -2,6 +2,11 @@
 layout: default
 title: Home
 ---
+<title>Roman List — Personal Website</title>
+<meta name="description" content="Roman List's personal website, projects, contact, and portfolio.">
+<meta name="google-site-verification" content="kZmSJd4aqcmgCZq2DrygW2HPH099owKR3eC1lN-JmXk" />
+<h1>Roman List</h1>
+
 
 <!-- Hero Section -->
 <header class="masthead" style="background-image: url('{{ "/assets/images/hero.jpg" | relative_url }}'); height: 60vh; background-size: cover; background-position: center;">
@@ -54,4 +59,16 @@ title: Home
     </aside>
   </div>
   <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="romanlist" data-description="Support me on Buy me a coffee!" data-message="" data-color="#5F7FFF" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Roman List",
+  "url": "https://wolfromanlist.github.io",
+  "sameAs": [
+    "https://github.com/wolfromanlist",
+    "https://www.linkedin.com/in/roman-list"  // add if exists
+  ]
+}
+</script>
 </main>
