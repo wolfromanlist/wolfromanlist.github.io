@@ -4,7 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="google-site-verification" content="kZmSJd4aqcmgCZq2DrygW2HPH099owKR3eC1lN-JmXk" />
+
+  {% if site.google_site_verification %}
+  <meta name="google-site-verification" content="{{ site.google_site_verification }}" />
+  {% endif %}
+
   <title>{{ page.title }} | {{ site.title }}</title>
 
   <!-- Bootstrap CSS -->
