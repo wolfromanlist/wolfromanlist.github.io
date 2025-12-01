@@ -2,7 +2,7 @@
 layout: default
 title: Home
 ---
-<title>Roman List — Personal Website</title>
+
 <head>
 <meta name="description" content="Roman List's personal website, projects, contact, and portfolio.">
 <meta name="google-site-verification" content="kZmSJd4aqcmgCZq2DrygW2HPH099owKR3eC1lN-JmXk" />
