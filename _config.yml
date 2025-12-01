@@ -23,3 +23,5 @@ navbar-links:
 
 google_site_verification: "kZmSJd4aqcmgCZq2DrygW2HPH099owKR3eC1lN-JmXk"
 
+plugins:
+  - jekyll-sitemap
