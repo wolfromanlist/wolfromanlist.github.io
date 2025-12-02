@@ -1,0 +1,26 @@
+/* Typography improvements */
+body {
+  line-height: 1.6;
+}
+
+/* Add subtle hover effect on navbar links */
+.nav-link:hover {
+  opacity: 0.7;
+  transition: opacity 0.2s ease;
+}
+
+/* Improve readability of post lists */
+.post-list li {
+  margin-bottom: 0.6rem;
+}
+
+/* Optional: better spacing on containers */
+.container {
+  max-width: 1200px;
+}
+
+.post-heading .badge:hover {
+  opacity: 0.8;
+  transition: opacity 0.2s ease;
+}
+
