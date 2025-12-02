@@ -3,7 +3,7 @@ name: Deploy Jekyll with Plugins
 on:
   push:
     branches:
-      - main  # Change this to 'master' if your main branch is named master
+      - master  # Change this to 'master' if your main branch is named master
 
 permissions:
   contents: read
