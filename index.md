@@ -29,11 +29,9 @@ title: Home
           </li>
         {% endfor %}
       </ul>
-    </div>
+          Welcome to Deformed Incisions! The world can be confusing sometimes and, to make the right calls in life, we need to base our decisions on the right assumptions. On this page, I want to look at the wealth of Open Data that is out there and see if there is something to be learned from it. I will attempt myself at everyday topics and questions you were always wondering about as well as topics of societal relevance. I'll try to stick to the facts, use a little bit of my science background here and there, and hopefully learn a thing or two. Come along as we try to turn deformed incisions to informed decisions!
 
-  <div class="row">
-    Welcome to Deformed Incisions! The world can be confusing sometimes and, to make the right calls in life, we need to base our decisions on the right assumptions. On this page, I want to look at the wealth of Open Data that is out there and see if there is something to be learned from it. I will attempt myself at everyday topics and questions you were always wondering about as well as topics of societal relevance. I'll try to stick to the facts, use a little bit of my science background here and there, and hopefully learn a thing or two. Come along as we try to turn deformed incisions to informed decisions!
-  </div>
+    </div>
 
     <aside class="col-lg-4">
       <div class="p-3 mb-3 bg-light rounded shadow-sm">
