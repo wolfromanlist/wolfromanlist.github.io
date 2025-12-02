@@ -31,12 +31,14 @@ title: Home
       </ul>
     </div>
 
+  <div class="row">
     Welcome to Deformed Incisions! The world can be confusing sometimes and, to make the right calls in life, we need to base our decisions on the right assumptions. On this page, I want to look at the wealth of Open Data that is out there and see if there is something to be learned from it. I will attempt myself at everyday topics and questions you were always wondering about as well as topics of societal relevance. I'll try to stick to the facts, use a little bit of my science background here and there, and hopefully learn a thing or two. Come along as we try to turn deformed incisions to informed decisions!
+  </div>
 
     <aside class="col-lg-4">
       <div class="p-3 mb-3 bg-light rounded shadow-sm">
         <h4>About Me</h4>
-        <p>I'm Roman, I study mathematical physics and share work in open data, ML and everyday curiosities.</p>
+        <p>I'm Roman, I study mathematical physics and share my work in open data, ML and everyday curiosities.</p>
       </div>
 
     <div class="p-3 mb-3 bg-light rounded shadow-sm">
@@ -66,7 +68,7 @@ title: Home
   "url": "https://wolfromanlist.github.io",
   "sameAs": [
     "https://github.com/wolfromanlist",
-    "https://www.linkedin.com/in/roman-list"  // add if exists
+    "https://www.linkedin.com/in/roman-list"
   ]
 }
 </script>
