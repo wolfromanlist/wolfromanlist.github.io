@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-<meta name="description" content="Roman List's personal website, projects, contact, and portfolio.">
+<meta name="description" content="Roman List's personal website">
 
 
 <!-- Hero Section -->
@@ -11,7 +11,7 @@ title: Home
   <div class="container h-100 d-flex align-items-center justify-content-center">
     <div class="text-center text-white">
       <h1 class="display-4 fw-bold">Hi, I'm Roman</h1>
-      <p class="lead">Welcome to my digital workspace where I share projects, notes, and ideas.</p>
+      <p class="lead">Welcome to Deformed Incisions, my digital workspace where I share projects, notes, and ideas.</p>
     </div>
   </div>
 </header>
@@ -31,11 +31,12 @@ title: Home
       </ul>
     </div>
 
+    Welcome to Deformed Incisions! The world can be confusing sometimes and, to make the right calls in life, we need to base our decisions on the right assumptions. On this page, I want to look at the wealth of Open Data that is out there and see if there is something to be learned from it. I will attempt myself at everyday topics and questions you were always wondering about as well as topics of societal relevance. I'll try to stick to the facts, use a little bit of my science background here and there, and hopefully learn a thing or two. Come along as we try to turn deformed incisions to informed decisions!
 
     <aside class="col-lg-4">
       <div class="p-3 mb-3 bg-light rounded shadow-sm">
         <h4>About Me</h4>
-        <p>I'm Roman, sharing work in data, ML, and interactive visualizations.</p>
+        <p>I'm Roman, I study mathematical physics and share work in open data, ML and everyday curiosities.</p>
       </div>
 
     <div class="p-3 mb-3 bg-light rounded shadow-sm">
