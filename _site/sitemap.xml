@@ -5,10 +5,6 @@
 <lastmod>2025-01-28T00:00:00+01:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/2025/11/29/first-post.html</loc>
-<lastmod>2025-11-29T00:00:00+01:00</lastmod>
-</url>
-<url>
 <loc>http://localhost:4000/about.html</loc>
 </url>
 <url>
@@ -25,11 +21,5 @@
 </url>
 <url>
 <loc>http://localhost:4000/tag.html</loc>
-</url>
-<url>
-<loc>http://localhost:4000/tag/machine-learning/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/tag/visualization/</loc>
 </url>
 </urlset>

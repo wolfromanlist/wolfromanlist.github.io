@@ -30,7 +30,53 @@ layout: default
 <article class="container my-5">
   <div class="row justify-content-center">
     <div class="col-lg-8 col-md-10">
+  <div class="row">
+    <div class="col-lg-8" id="post-content">
       {{ content }}
+    </div>
+    <div class="col-lg-4 d-none d-lg-block">
+      <div class="sticky-top" style="top: 2rem;">
+        <h5 class="mb-3">Table of Contents</h5>
+        <nav id="toc"></nav>
+      </div>
     </div>
   </div>
 </article>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const content = document.getElementById("post-content");
+    const toc = document.getElementById("toc");
+    const headings = content.querySelectorAll("h2, h3, h4, h5, h6");
+
+    if (headings.length === 0) {
+      if (toc) toc.parentElement.style.display = "none";
+      return;
+    }
+
+    const list = document.createElement("ul");
+    list.classList.add("list-unstyled");
+
+    headings.forEach(heading => {
+      if (!heading.id) {
+        heading.id = heading.textContent.trim().toLowerCase().replace(/\s+/g, '-').replace(/[^\w\-]+/g, '');
+      }
+
+      const li = document.createElement("li");
+      li.classList.add("mb-2");
+      const level = parseInt(heading.tagName.substring(1));
+      const padding = Math.max(0, level - 2);
+      li.style.paddingLeft = padding + "rem";
+
+      const link = document.createElement("a");
+      link.href = "#" + heading.id;
+      link.textContent = heading.textContent;
+      link.classList.add("text-decoration-none", "text-muted");
+
+      li.appendChild(link);
+      list.appendChild(li);
+    });
+
+    toc.appendChild(list);
+  });
+</script>
