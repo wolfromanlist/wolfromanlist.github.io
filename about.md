@@ -5,7 +5,7 @@ title: About
 
 # About Me
 
-Hey! I'm Roman. I'm a 25-year-old physics student from Germany and I like cucumbers.
+Hey! I'm Roman. I'm a 25-year-old physics student from Germany and I like cucumbers. To help me keep eating cucumbers, please consider donating.
 
 <!-- In my view, learning is as much about the expansion of knowledge as it is about daring to be imperfect and that's what this page is all about. I'd like to explore topics with a fresh mind, ask (stupid) questions and see where the path to the answer takes me. -->
 
